@@ -1,0 +1,5 @@
+﻿  Render.cpp
+C:\Users\User\Desktop\mh\HumanGL\HumanGL\src\Render.cpp(11,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Desktop\mh\HumanGL\HumanGL\src\Render.cpp(28,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\mh\HumanGL\HumanGL\src\Render.cpp(35,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  HumanGL.vcxproj -> C:\Users\User\Desktop\mh\HumanGL\Debug\HumanGL.exe
