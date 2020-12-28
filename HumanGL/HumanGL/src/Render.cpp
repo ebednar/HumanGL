@@ -26,7 +26,7 @@ void    Render::draw_child(Entity* ent, Animator *animator, Scene *scene, Camera
 
     
     model = translate(model, -1 * ent->positionOffset);
-    ani_model = animator->animations["idle"][ent->ID].GetAnimationMatrix(*ent, Engine::delta_time) * ani_model;
+    ani_model = animator->animations["praise"][ent->ID].GetAnimationMatrix(*ent, Engine::delta_time) * ani_model;
     model = model * ani_model;
     model = translate(model, ent->positionOffset);
 
@@ -84,7 +84,7 @@ void Render::draw_scene(Animator *animator, Scene *scene, Camera *cam)
         mat4 ani_model = mat4(1.0f);
         if (ent->ID == 0)
         {
-           ani_model = animator->animations["idle"][0].GetAnimationMatrix(*ent, Engine::delta_time);
+           ani_model = animator->animations["praise"][0].GetAnimationMatrix(*ent, Engine::delta_time);
             model = model * ani_model;
         }
 
